@@ -23,12 +23,12 @@ export const Header = () => {
         </ul>
       </div>
         <div className="hidden lg:flex gap-2 items-center font-serif h-4 w-40 m-3 text-white ">
-          <Link to='/login' > SignIn</Link>
-          <Link to='/register' className="bg-[#1c407d] h-14 rounded-md px-2 text-white flex items-center">Register</Link>
+          <Link to='/' > SignIn</Link>
+          <Link to='/' className="bg-[#1c407d] h-14 rounded-md px-2 text-white flex items-center">Register</Link>
          
         </div>
-      <div className="lg:hidden">
-        <FaBars />
+      <div className="lg:hidden text-white ">
+        <FaBars className="h-10" />
       </div>
     </div>
   );
